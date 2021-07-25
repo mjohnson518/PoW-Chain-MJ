@@ -4,7 +4,7 @@ const UTXO = require('./models/UTXO');
 const db = require('./db');
 const {PUBLIC_KEY} = require('./config');
 const TARGET_DIFFICULTY = BigInt("0x0" + "F".repeat(63));
-const BLOCK_REWARD = Math.floor((Math.random() * 50) + 1);
+const BLOCK_REWARD = Math.floor((Math.random() * 25) + 2);
 
 let mining = true;
 mine();
