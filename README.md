@@ -1,6 +1,6 @@
 # Proof of Work Chain
 
-This is an example Proof of Work Chain with a client/server application.
+This is my example Proof of Work Chain with a client/server application. This is a clone of the original [Chainshot PoW-Chain](https://github.com/ChainShot/PoW-Chain).
 
 ## Server
 
