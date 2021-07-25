@@ -195,7 +195,7 @@ module.hot.accept(reloadCSS);
 require("./index.scss");
 
 function getBalance() {
-  var address = "049a1bad614bcd85b5f5c36703ebe94adbfef7af163b39a9dd3ddbc4f286820031dfcb3cd9b3d2fcbaec56ff95b0178b75d042968462fbfe3d604e02357125ded5";
+  var address = "04ee2f59149a7a597a9ba5e40eb7bc94a95c6693756e32f40989caf2a5aad22e47c1dbe0b402963b2bffc9995a67aa518ab386379bf9a0f51cc3ee0db742f423cd";
   var params = {
     method: "getBalance",
     params: [address],
@@ -279,7 +279,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51667" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57545" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

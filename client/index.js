@@ -1,7 +1,7 @@
 import "./index.scss";
 
 function getBalance() {
-  const address = "049a1bad614bcd85b5f5c36703ebe94adbfef7af163b39a9dd3ddbc4f286820031dfcb3cd9b3d2fcbaec56ff95b0178b75d042968462fbfe3d604e02357125ded5";
+  const address = "04ee2f59149a7a597a9ba5e40eb7bc94a95c6693756e32f40989caf2a5aad22e47c1dbe0b402963b2bffc9995a67aa518ab386379bf9a0f51cc3ee0db742f423cd";
 
   const params = {
     method: "getBalance",

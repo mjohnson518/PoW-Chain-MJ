@@ -4,7 +4,7 @@ const UTXO = require('./models/UTXO');
 const db = require('./db');
 const {PUBLIC_KEY} = require('./config');
 const TARGET_DIFFICULTY = BigInt("0x0" + "F".repeat(63));
-const BLOCK_REWARD = Math.floor((Math.random() * 25) + 1);
+const BLOCK_REWARD = Math.floor((Math.random() * 50) + 1);
 
 let mining = true;
 mine();
@@ -39,7 +39,7 @@ function mine() {
 
   console.log(`Mined block #${db.blockchain.blockHeight()} with a hash of ${block.hash()} at nonce ${block.nonce}`);
 
-  setTimeout(mine, 2500);
+  setTimeout(mine, 5000);
 }
 
 module.exports = {
